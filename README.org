@@ -1,0 +1,52 @@
+#+TITLE: Readme
+
+* About this repository
+
+I'm more interested in [[https://distrowatch.com/search.php?ostype=Linux&category=All&origin=All&basedon=Independent&notbasedon=None&desktop=All&architecture=All&package=All&rolling=All&isosize=All&netinstall=All&language=All&defaultinit=All&status=Active#simple][independent Linux distributions]] than their variants (i.e Debian instead of Ubuntu)
+- I can apply most (if not all) concepts from the parent distribution to all its derivatives
+- I prefer to heavily customize my systems from scratch
+
+I might include notes about BSD (OpenBSD, FreeBSD, NetBSD) and Solaris in the future.
+
+* General notes  
+
+The "easiest way" to setup systems with full disk encryption is to perform manual installations (IMHO).
+- This gives you *full flexibility* over how things are configured
+- *This assumes that you're very comfortable* (or resourceful) with the command-line within a chroot environment
+- This is not as difficult as you think
+  
+* References
+  
+** Void Linux
+- https://docs.voidlinux.org/installation/guides/fde.html
+- https://docs.voidlinux.org/installation/guides/chroot.html
+
+** Arch Linux
+- https://gist.github.com/huntrar/e42aee630bee3295b2c671d098c81268
+- https://wiki.archlinux.org/title/dm-crypt/Encrypting_an_entire_system#LUKS_on_LVM
+- https://medium.com/hacker-toolbelt/arch-install-with-full-disk-encryption-6192e9635281
+
+** Debian
+- https://github.com/myTerminal/dotfiles/blob/master/.setup/docs/install-debian.md
+
+** Fedora
+This just requires =dnf --installroot= similarly to =debootstrap=(Debian), =pacstrap= (Arch), etc.
+- https://sysguides.com/install-fedora-37-with-luks-full-disk-encryption/
+- https://fedoraproject.org/wiki/GRUB_2#Updating_the_GRUB_configuration_file
+
+** Guix
+- https://github.com/yveszoundi/guix-config
+- https://www.youtube.com/watch?v=XOYirIzUlW8
+- https://www.reddit.com/r/GUIX/comments/q8y808/installing_guix_on_ideapad_1_11igl05/
+    
+** Slackware
+- https://yellowapple.us/2022/02/10/slackware-crypt-efi-only.html
+- https://docs.slackware.com/howtos:hardware:syncing_hardware_clock_and_system_local_time
+
+** Alpine
+
+TBD
+
+** Other Linux distributions
+
+TBD: NixOS, Gentoo, Crux, ClearLinux, Kiss Linux, Chimera Linux
