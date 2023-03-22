@@ -30,7 +30,7 @@ The "easiest way" to setup systems with full disk encryption is to perform manua
 - https://github.com/myTerminal/dotfiles/blob/master/.setup/docs/install-debian.md
 
 ** Fedora
-This just requires =dnf --installroot= similarly to =debootstrap=(Debian), =pacstrap= (Arch), etc.
+This just requires =dnf --installroot= similarly to /debootstrap/ (Debian), /pacstrap/ (Arch), etc.
 - https://sysguides.com/install-fedora-37-with-luks-full-disk-encryption/
 - https://fedoraproject.org/wiki/GRUB_2#Updating_the_GRUB_configuration_file
 
